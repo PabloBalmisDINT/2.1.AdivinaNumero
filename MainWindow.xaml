@@ -9,18 +9,9 @@
     <Grid>
         <TextBox x:Name="IntentoTextBox" HorizontalAlignment="Left" Height="23" Margin="177,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,35,0,0" TextWrapping="Wrap" Text="¿Que numero he pensado?" VerticalAlignment="Top" Height="18" Width="143"/>
-        <TextBlock x:Name="RespuestaTextBlock"  HorizontalAlignment="Left" Margin="45,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="244">
-            <TextBlock.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform ScaleY="1" ScaleX="1"/>
-                    <SkewTransform AngleY="0" AngleX="0"/>
-                    <RotateTransform Angle="0"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </TextBlock.RenderTransform>
-        </TextBlock>
-        <Button Content="Comprobar" HorizontalAlignment="Left" Margin="45,119,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" IsDefault="True"/>
-        <Button Content="Reiniciar" HorizontalAlignment="Left" Margin="194,119,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <TextBlock x:Name="RespuestaTextBlock"  HorizontalAlignment="Left" Margin="45,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="244"/>
+        <Button Content="Comprobar" HorizontalAlignment="Left" Margin="45,119,0,0" VerticalAlignment="Top" Width="75" Click="ComprobarButtonClick" IsDefault="True"/>
+        <Button Content="Reiniciar" HorizontalAlignment="Left" Margin="194,119,0,0" VerticalAlignment="Top" Width="75" Click="ReiniciarButtonClick"/>
 
     </Grid>
 </Window>

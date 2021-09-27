@@ -26,7 +26,7 @@ namespace _2._1.AdivinaNumero
             numero = random.Next(0,100);
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void ComprobarButtonClick(object sender, RoutedEventArgs e)
         {
             if(int.Parse(IntentoTextBox.Text) == numero)
             {
@@ -42,7 +42,7 @@ namespace _2._1.AdivinaNumero
             }
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void ReiniciarButtonClick(object sender, RoutedEventArgs e)
         {
             Random random = new Random();
             numero = random.Next(0, 100);
